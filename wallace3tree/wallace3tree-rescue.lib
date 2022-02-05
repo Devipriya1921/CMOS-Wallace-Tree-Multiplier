@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# fulladder-RESCUE-wallace3tree
+#
+DEF fulladder-RESCUE-wallace3tree x 0 40 Y Y 1 F N
+F0 "x" 450 -100 60 V V C CNN
+F1 "fulladder-RESCUE-wallace3tree" -100 0 60 V V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -400 250 400 -250 0 1 0 N
+X a 1 -600 100 200 R 50 50 1 1 I
+X b 2 -600 -100 200 R 50 50 1 1 I
+X sum 3 600 150 200 L 50 50 1 1 O
+X carry 4 -250 -450 200 U 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library
