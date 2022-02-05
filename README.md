@@ -7,11 +7,11 @@
 1. [Introduction](#Introduction)
 2. [Installation of the tools](#installation-of-the-tools)
 3. [Methodology](#Methodology)
-    - [Step 1 : Construct AND Gate](#step-1-construct-and-gate)
-    - [Step 2 : Construct XOR Gate](#Step-2-Construct-XOR-Gate)
-    - [Step 3 : Construct Half Adder](#step-3-construct-half-adder)
-    - [Step 4 : Construct Full Adder](#state-table#step-4-construct-full-adder)
-    - [Step 5 : Construct 3-Bit Wallace Multiplier](#step-5-construct-3-bit-wallace-multiplier) 
+    - [Step1 Construct AND Gate](#step1-construct-and-gate)
+    - [Step2 Construct XOR Gate](#Step2-Construct-XOR-Gate)
+    - [Step3 Construct Half Adder](#step3-construct-half-adder)
+    - [Step4 Construct Full Adder](#step4-construct-full-adder)
+    - [Step5 Construct 3-Bit Wallace Multiplier](#step5-construct-3-bit-wallace-multiplier) 
 4. [Results](#results)
     - [Command Window](#command-window)
     - [Obtained Output Waveforms](#obtained-output-waveforms)
@@ -80,7 +80,7 @@ To Run the ckt using ngspice:
 
 ## Methodology
 
-### Step 1 : Construct AND Gate
+### Step1 Construct AND Gate
 
 - Construct the "and gate" as shown in the figure below using eSim :
 
@@ -161,7 +161,7 @@ v1  net-_m1-pad1_ gnd 3.3v
 
 - Save the above ngspice subcircuit spice file in a folder where the Sky130 folder is present.
 
-### Step 2 : Construct XOR Gate
+### Step2 Construct XOR Gate
 
 - Construct the "and gate" as shown in the figure below using eSim :
 
@@ -267,7 +267,7 @@ v1  net-_m14-pad1_ gnd 3.3v
 - Save the above ngspice subcircuit spice file in a folder where the Sky130 folder is present.
 
 
-### Step 3 : Construct Half Adder
+### Step3 Construct Half Adder
 
 - Construct the "Half Adder" as shown in the figure below using eSim :
 
@@ -339,7 +339,7 @@ x1 net-_u1-pad1_ net-_u1-pad2_ net-_u1-pad3_ xor_gate
 - Save the above ngspice subcircuit spice file in a folder where the Sky130 folder is present.
 
 
-### Step 4 : Construct Full Adder
+### Step4 Construct Full Adder
 
 - Construct the "Full Adder" as shown in the figure below using eSim :
 
@@ -414,7 +414,7 @@ x2 net-_u1-pad1_ net-_x1-pad3_ net-_u1-pad4_ net-_x2-pad4_ halfadder
 - Save the above ngspice subcircuit spice file in a folder where the Sky130 folder is present.
 
 
-### Step 5 : Construct 3-Bit Wallace Multiplier
+### Step5 Construct 3-Bit Wallace Multiplier
 
 - Expected structure of a Wallace Multiplier :
 
@@ -548,6 +548,8 @@ Syntax for the command : [Go to the Location of the ngspice folder] followed by 
 
 ## References
 
+- [eSim](https://esim.fossee.in/home)
+- [YouTube](https://www.youtube.com/watch?v=Da3kzKzzuLs)
 
 ## Author
 
