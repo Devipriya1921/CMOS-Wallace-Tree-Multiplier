@@ -82,6 +82,9 @@ To Run the ckt using ngspice:
 
 ### Step1 Construct AND Gate
 
+![AND-Gate-and-its-Truth-Table](https://user-images.githubusercontent.com/83152452/152642602-e71b7326-8b90-47f9-b701-4fd3e85c7e4a.jpg)
+
+
 - Construct the "and gate" as shown in the figure below using eSim :
 
 ![and_gate-1](https://user-images.githubusercontent.com/83152452/152638739-4d6e875d-5744-4e22-9bd9-941ed6165030.png)
@@ -162,6 +165,9 @@ v1  net-_m1-pad1_ gnd 3.3v
 - Save the above ngspice subcircuit spice file in a folder where the Sky130 folder is present.
 
 ### Step2 Construct XOR Gate
+
+![EXOR-gate-and-its-truth-table](https://user-images.githubusercontent.com/83152452/152642603-5df31382-d2ff-47ec-8d22-e0e81c7c032a.jpg)
+
 
 - Construct the "and gate" as shown in the figure below using eSim :
 
@@ -269,6 +275,9 @@ v1  net-_m14-pad1_ gnd 3.3v
 
 ### Step3 Construct Half Adder
 
+![ha](https://user-images.githubusercontent.com/83152452/152642606-594963bd-71c2-4f8c-b205-6cc2ff07e0d9.jpg)
+
+
 - Construct the "Half Adder" as shown in the figure below using eSim :
 
 ![halfadder-1](https://user-images.githubusercontent.com/83152452/152638772-ab49afa0-3c13-44b4-90a7-b26170c7a240.png)
@@ -340,6 +349,9 @@ x1 net-_u1-pad1_ net-_u1-pad2_ net-_u1-pad3_ xor_gate
 
 
 ### Step4 Construct Full Adder
+
+![fa](https://user-images.githubusercontent.com/83152452/152642609-2ca4fb85-6d0a-4a9f-a455-2332c1929110.jpg)
+
 
 - Construct the "Full Adder" as shown in the figure below using eSim :
 
