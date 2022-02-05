@@ -1,0 +1,19 @@
+* c:\users\priya\esim-workspace\and_gate\and_gate.cir
+
+m1  net-_m1-pad1_ net-_m1-pad2_ net-_m1-pad3_ net-_m1-pad1_ mosfet_p
+m4  net-_m1-pad1_ net-_m3-pad2_ net-_m1-pad3_ net-_m1-pad1_ mosfet_p
+m6  net-_m1-pad1_ net-_m1-pad3_ net-_m5-pad1_ net-_m1-pad1_ mosfet_p
+m5  net-_m5-pad1_ net-_m1-pad3_ gnd gnd mosfet_n
+m3  net-_m2-pad3_ net-_m3-pad2_ gnd gnd mosfet_n
+m2  net-_m1-pad3_ net-_m1-pad2_ net-_m2-pad3_ net-_m2-pad3_ mosfet_n
+v1  net-_m1-pad1_ gnd 3.3v
+* u1  net-_m1-pad2_ net-_m3-pad2_ net-_m5-pad1_ port
+.tran 0e-00 0e-00 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+.endc
+.end
