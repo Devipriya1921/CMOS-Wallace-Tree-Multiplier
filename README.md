@@ -2,6 +2,8 @@
 
 * The purpose of this project is to design a CMOS 3-Bit Wallace Tree Multiplier using an Opensource EDA Tool called eSim, an Opensource Spice Simulator called ngspice and Sky130 PDK.
 
+* To explore the project you can git clone using the command : ``` https://github.com/Devipriya1921/CMOS-Wallace-Tree-Multiplier.git ```
+
 # Table of Contents
 
 1. [Introduction](#Introduction)
