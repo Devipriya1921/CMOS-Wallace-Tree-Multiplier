@@ -93,7 +93,10 @@ To Run the ckt using ngspice:
 
 ![and_gate-2](https://user-images.githubusercontent.com/83152452/152638743-ae860cb2-7ff7-40b1-8a0a-c74b658eb9a5.png)
 
-- Follow the steps as shown in the video for making a subcircuit once the and gate is made or designed.
+- Follow the steps as shown in the video for making a subcircuit once the and gate is made or designed :
+ 
+  Visit the YouTube link : https://youtu.be/o6dUXrv8EqY
+ 
 - Once every step is followed perfectly open the Netlist that is generated and make the necessary changes to add the Sky130 models
 - The Netlist generated initially is as shown below :
 
