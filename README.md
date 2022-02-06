@@ -570,6 +570,6 @@ Syntax for the command : [Go to the Location of the ngspice folder] followed by 
 
 ## Author
 
-- [A Devipriya](https://github.com/Devipriya1921), Bachelor of Engineering in Electronics and Communication Engineering, Cambridge Institute of Technology, Bangalore
+- [A Devipriya](https://github.com/Devipriya1921), Bachelor of Engineering in Electronics and Communication Engineering, Bangalore
 
     
