@@ -18,7 +18,8 @@
     - [Command Window](#command-window)
     - [Obtained Output Waveforms](#obtained-output-waveforms)
 5. [References](#references)
-6. [Author](#author)
+6. [Acknowledgement](#Acknowledgement)
+7. [Author](#author)
 
 
 ## Introduction 
@@ -567,6 +568,12 @@ Syntax for the command : [Go to the Location of the ngspice folder] followed by 
 
 - [eSim](https://esim.fossee.in/home)
 - [YouTube](https://www.youtube.com/watch?v=Da3kzKzzuLs)
+
+
+## Acknowledgement
+
+- [Kunal Ghosh](https://github.com/kunalg123), Founder, VSD Corp. Pvt. Ltd
+- SFAL Team
 
 ## Author
 
